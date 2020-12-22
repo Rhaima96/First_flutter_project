@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Components {
-  var myStyle = GoogleFonts.adventPro(color: Colors.white, fontSize: 36);
+  var myStyle = GoogleFonts.adventPro(color: Colors.white, fontSize: 32);
 
   myCard(String text, IconData icon, double size) {
     return new Padding(

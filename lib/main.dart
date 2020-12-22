@@ -25,11 +25,11 @@ class MyApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               comp.myAvatar(),
-              comp.myText("Oussema AROUA", comp.myStyle),
-              comp.myText("Mobile Developer", comp.myStyle),
+              comp.myText("Rhaima Mohamed Touhami", comp.myStyle),
+              comp.myText("FullStack Developer", comp.myStyle),
               comp.myDivider(),
               comp.myCard("+216 50 000 00", Icons.phone, 26),
-              comp.myCard("oussema.aroua@email.com", Icons.email, 26),
+              comp.myCard("exemple@email.com", Icons.email, 26),
               comp.myButton(() {
                 Navigator.push(context,
                     MaterialPageRoute<void>(builder: (BuildContext context) {
